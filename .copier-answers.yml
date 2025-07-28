@@ -5,8 +5,8 @@ argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
 cluster_name: argus
 cluster_namespace: hgv27681
-deployment_repo: https://github.com/gilesknap/hgv27681-deployment
-description: hgv27681 IOC Instances and Services Deployment Repository for Argo CD
+deployment_repo: https://github.com/gilesknap/t01-deployment
+description: t01 IOC Instances and Services Deployment Repository for Argo CD
 git_platform: github.com
 github_org: gilesknap
 ioc_group: hgv27681

@@ -1,4 +1,4 @@
-# hgv27681 IOC Instances and Services Deployment Repository for Argo CD
+# t01 IOC Instances and Services Deployment Repository for Argo CD
 
 This repository holds the definition of Argocd deployed ec services. Each sub folder of the 'services' directory of an ec 'services repository' is mapped to an Argocd App which is managed by a root App.
 
