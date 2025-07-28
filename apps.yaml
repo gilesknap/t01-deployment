@@ -12,7 +12,7 @@ spec:
     namespace: hgv27681
   source:
     path: apps
-    repoURL: 
+    repoURL: https://github.com/gilesknap/hgv27681-deployment
     targetRevision: main
     helm:
       version: v3
