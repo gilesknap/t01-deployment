@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hgv27681
+  name: t01
   namespace: hgv27681
   finalizers:
     - resources-finalizer.argocd.argoproj.io

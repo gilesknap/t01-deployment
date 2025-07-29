@@ -37,6 +37,6 @@ ec_services:
   #     enabled: set to false to stop a service
 
   # example entry
-  #   hgv27681-ea-test-01:
+  #   t01-ea-test-01:
   #     enabled: true
   #     targetRevision: main
