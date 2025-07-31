@@ -43,3 +43,6 @@ ec_services:
   #   t01-ea-test-01:
   #     enabled: true
   #     targetRevision: main
+  bl01t-di-cam-01:
+    enabled: true
+    targetRevision: main
