@@ -27,6 +27,9 @@ services:
   epics-opis:
 
 ec_services:
+  bl01t-mo-sim-01:
+    enabled: true
+    targetRevision: main
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
