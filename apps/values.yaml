@@ -46,3 +46,6 @@ ec_services:
   bl01t-di-cam-01:
     enabled: true
     targetRevision: main
+  t01-gateways:
+    enabled: true
+    targetRevision: main
