@@ -49,3 +49,6 @@ ec_services:
   t01-gateways:
     enabled: true
     targetRevision: main
+  bl01t-ea-fastcs-01:
+    enabled: true
+    targetRevision: add-fastcs-example
