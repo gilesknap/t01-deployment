@@ -4,7 +4,8 @@ metadata:
   name: t01
   namespace: hgv27681
   finalizers:
-    - resources-finalizer.argocd.argoproj.io
+    - resources-finalizer.argocd.argoproj.io/background
+    - resources-finalizer.argocd.argoproj.io/foreground
 spec:
   project: hgv27681
   destination:
