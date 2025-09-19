@@ -44,7 +44,7 @@ ec_services:
   #     enabled: true
   #     targetRevision: main
   bl01t-di-cam-01:
-    enabled: true
+    enabled: false
     targetRevision: extra-soft-support
   t01-gateways:
     enabled: true
