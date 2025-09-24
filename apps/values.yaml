@@ -52,3 +52,6 @@ ec_services:
   # bl01t-ea-fastcs-01:
   #   enabled: true
   #   targetRevision: add-fastcs-example
+  bl01t-ea-demo-01:
+    enabled: true
+    targetRevision: main
