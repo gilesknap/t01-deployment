@@ -13,6 +13,7 @@ echo "Loading environment for t01 deployment ..."
 
 #### SECTION 1. Environment variables ##########################################
 
+module unload ec
 export EC_CLI_BACKEND="ARGOCD"
 # the argocd project and root app
 export EC_TARGET=hgv27681/t01
@@ -24,7 +25,6 @@ export EC_LOG_URL='https://graylog2.diamond.ac.uk/search?rangetype=relative&fiel
 #### SECTION 2. Install ec #####################################################
 
 
-module unload ec
 module load uv
 # use `ec` CLI direct from PyPi
 alias ec='uvx --from edge-containers-cli ec'
@@ -35,7 +35,8 @@ source <(uvx --from edge-containers-cli ec --show-completion ${SHELL})
 #### SECTION 3. Configure Argocd Server ###################################
 
 # TODO add commands here to enable argocd cli
-argocd login argocd.diamond.ac.uk --grpc-web --sso
+module load argus
+# argocd login argocd.diamond.ac.uk --grpc-web --sso
 
 # enable shell completion for k8s tools
 if [ -n "$ZSH_VERSION" ]; then SHELL=zsh; fi
