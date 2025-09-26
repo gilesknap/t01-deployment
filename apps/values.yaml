@@ -32,7 +32,7 @@ ec_services:
     targetRevision: last-breaking-changes
   bl01t-di-cam-01:
     enabled: true
-    targetRevision: main
+    targetRevision: last-breaking-changes
   t01-gateways:
     enabled: true
     targetRevision: main
