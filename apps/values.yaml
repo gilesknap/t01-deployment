@@ -28,7 +28,7 @@ services:
 
 ec_services:
   bl01t-mo-sim-01:
-    enabled: true
+    enabled: false
     targetRevision: last-breaking-changes
   bl01t-di-cam-01:
     enabled: true
