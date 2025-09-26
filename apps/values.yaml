@@ -14,7 +14,7 @@ destination:
   namespace: hgv27681
 source:
   repoURL: https://github.com/gilesknap/t01-services
-  targetRevision: main
+  targetRevision: last-breaking-changes-2
 
 services:
   # Each item is of the form:
@@ -28,11 +28,7 @@ services:
 
 ec_services:
   bl01t-mo-sim-01:
-    enabled: false
-    targetRevision: last-breaking-changes
   bl01t-di-cam-01:
-    enabled: true
-    targetRevision: last-breaking-changes
   t01-gateways:
     enabled: true
     targetRevision: main
