@@ -29,20 +29,7 @@ services:
 ec_services:
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: main
-  # Services which have implemented support for an "enabled" parameter.
-  # Each item is of the form:
-  #   service: service name as it appears in K8S (statefulset/deployment name)
-  #     targetRevision: optional override for targetRevision above
-  #     repoURL: optional override for git repo to source the helm chart from
-  #            the path is always services/<service> within that repo
-  #     removed: set to true to remove the service from the cluster
-  #     enabled: set to false to stop a service
-
-  # example entry
-  #   t01-ea-test-01:
-  #     enabled: true
-  #     targetRevision: main
+    targetRevision: last-breaking-changes
   bl01t-di-cam-01:
     enabled: true
     targetRevision: main
