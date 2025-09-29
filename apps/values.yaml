@@ -14,7 +14,7 @@ destination:
   namespace: hgv27681
 source:
   repoURL: https://github.com/gilesknap/t01-services
-  targetRevision: last-breaking-changes-2
+  targetRevision: last-breaking-changes
 
 services:
   # Each item is of the form:
