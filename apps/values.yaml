@@ -30,8 +30,3 @@ ec_services:
   bl01t-mo-sim-01:
     enabled: true
   bl01t-di-cam-01:
-  t01-gateways:
-    enabled: true
-  # bl01t-ea-fastcs-01:
-  #   enabled: true
-  #   targetRevision: add-fastcs-example
