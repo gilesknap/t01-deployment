@@ -33,3 +33,6 @@ ec_services:
   bl01t-gateways:
     enabled: true
     targetRevision: last-breaking-changes
+  bl01t-ea-fastcs-01:
+    enabled: true
+    targetRevision: last-breaking-changes
