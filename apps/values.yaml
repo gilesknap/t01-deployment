@@ -36,3 +36,6 @@ ec_services:
   bl01t-ea-fastcs-01:
     enabled: true
     targetRevision: last-breaking-changes
+  bl11i-ea-mythen-01:
+    enabled: true
+    targetRevision: last-breaking-changes
