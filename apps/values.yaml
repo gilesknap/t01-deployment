@@ -30,7 +30,7 @@ ec_services:
   bl01t-mo-sim-01:
     enabled: true
   bl01t-di-cam-01:
-    enabled: false
+    enabled: true
   bl01t-gateways:
     enabled: true
     targetRevision: last-breaking-changes
