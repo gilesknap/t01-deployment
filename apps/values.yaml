@@ -23,8 +23,8 @@ services:
   #     repoURL: optional override for git repo to source the helm chart from
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
-  epics-pvcs:
-  epics-opis:
+  t01-epics-pvcs:
+  t01-epics-opis:
 
 ec_services:
   bl01t-mo-sim-01:
