@@ -35,7 +35,7 @@ ec_services:
     enabled: true
     targetRevision: last-breaking-changes
   bl01t-ea-fastcs-01:
-    enabled: true
+    enabled: false
     targetRevision: last-breaking-changes
   t01-ioc-monitor:
     enabled: true
