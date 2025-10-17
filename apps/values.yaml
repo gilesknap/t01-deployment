@@ -14,7 +14,7 @@ destination:
   namespace: hgv27681
 source:
   repoURL: https://github.com/gilesknap/t01-services
-  targetRevision: test-5.0.0
+  targetRevision: main
 
 services:
   # Each item is of the form:
