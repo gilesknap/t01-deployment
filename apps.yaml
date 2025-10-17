@@ -14,7 +14,7 @@ spec:
   source:
     path: apps
     repoURL: https://github.com/gilesknap/t01-deployment
-    targetRevision: main
+    targetRevision: test-5.0.0
     helm:
       version: v3
   syncPolicy:
