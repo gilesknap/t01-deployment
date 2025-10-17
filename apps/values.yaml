@@ -28,7 +28,7 @@ services:
   t01-epics-opis:
 
   bl01t-ea-fastcs-01:
-    enabled: false
+    enabled: true
     targetRevision: test-5.0.0
 
   bl01t-mo-sim-01:
