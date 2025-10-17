@@ -25,6 +25,9 @@ services:
   #     removed: set to true to remove the service from the cluster
   epics-pvcs:
   epics-opis:
+  bl01t-ea-fastcs-01:
+    enabled: true
+    targetRevision: test-5.0.0
 
 ec_services:
   bl01t-mo-sim-01:
