@@ -14,7 +14,7 @@ destination:
   namespace: hgv27681
 source:
   repoURL: https://github.com/gilesknap/t01-services
-  targetRevision: main
+  targetRevision: test-5.0.0
 
 services:
   # Each item is of the form:
@@ -29,7 +29,6 @@ services:
 ec_services:
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: main
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
   #   service: service name as it appears in K8S (statefulset/deployment name)
@@ -45,10 +44,8 @@ ec_services:
   #     targetRevision: main
   bl01t-di-cam-01:
     enabled: true
-    targetRevision: main
   t01-gateways:
     enabled: true
-    targetRevision: main
   # bl01t-ea-fastcs-01:
   #   enabled: true
   #   targetRevision: add-fastcs-example
