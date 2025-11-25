@@ -34,6 +34,7 @@ services:
     enabled: true
   bl01t-di-cam-01:
     enabled: true
+    targetRevision: generate2
   t01-epics-gateways:
     enabled: true
     targetRevision: generate2
