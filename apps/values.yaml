@@ -32,6 +32,7 @@ services:
 
   bl01t-mo-sim-01:
     enabled: true
+    targetRevision: generate2
   bl01t-di-cam-01:
     enabled: true
     targetRevision: generate2
