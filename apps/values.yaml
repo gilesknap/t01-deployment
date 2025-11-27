@@ -38,4 +38,4 @@ services:
     targetRevision: generate2
   t01-epics-gateways:
     enabled: true
-    targetRevision: generate2
+    targetRevision: test-synoptic-template
