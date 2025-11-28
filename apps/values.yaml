@@ -39,3 +39,6 @@ services:
   t01-epics-gateways:
     enabled: true
     targetRevision: test-synoptic-template
+  bl01t-synoptic:
+    enabled: true
+    targetRevision: test-synoptic-template
