@@ -29,16 +29,11 @@ services:
 
   bl01t-ea-fastcs-01:
     enabled: true
-
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: generate2
   t01-epics-gateways:
     enabled: true
-    targetRevision: test-synoptic-template
   bl01t-synoptic:
     enabled: true
-    targetRevision: test-synoptic-template
   bl01t-di-cam-01:
     enabled: true
-    targetRevision: test-synoptic-template
