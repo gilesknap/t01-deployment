@@ -37,4 +37,4 @@ services:
     enabled: true
   bl01t-di-cam-01:
     enabled: true
-    targetRevision: test-synoptic-template
+    targetRevision: main
