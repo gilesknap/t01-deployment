@@ -38,9 +38,6 @@ services:
     enabled: true
   bl01t-synoptic:
     enabled: true
-  bl01t-di-cam-01:
-    enabled: true
-    targetRevision: main
   bl01t-ea-lake-02:
     enabled: true
     targetRevision: runtime-pattern-vendoring
