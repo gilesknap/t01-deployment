@@ -32,9 +32,6 @@ services:
 
   t01-epics-pvcs:
   t01-epics-opis:
-
-  bl01t-ea-fastcs-01:
-    enabled: true
   bl01t-mo-sim-01:
     enabled: true
   t01-epics-gateways:
