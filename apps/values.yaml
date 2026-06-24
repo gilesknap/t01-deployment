@@ -44,3 +44,8 @@ services:
   bl01t-di-cam-01:
     enabled: true
     targetRevision: main
+  bl01t-ea-lake-02:
+    enabled: true
+    targetRevision: runtime-pattern-vendoring
+    labels:
+      description:
