@@ -48,3 +48,8 @@ services:
     targetRevision: runtime-pattern-vendoring
     labels:
       description:
+  bl01t-ea-lake-01:
+    enabled: true
+    targetRevision: runtime-pattern-vendoring
+    labels:
+      description:
